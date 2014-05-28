@@ -1,0 +1,1 @@
+**Federal University of Santa Catarina**, commonly known as **UFSC**, Brazil &mdash; [Website](http://www.ufsc.br/) | [Wikipedia](http://en.wikipedia.org/wiki/Universidade_Federal_de_Santa_Catarina)

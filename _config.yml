@@ -1,0 +1,51 @@
+safe:        false
+baseurl:     /
+url: http://localhost:4000
+
+name: Julio Cesar Fausto
+description: A software development coordinator who lives in Florianópolis and works for Softlan Systems
+url: http://jcfausto.com
+domain: jcfausto.com
+commentlinks: true
+twitter-username: jcfausto
+feedburnerurl: http://feeds.feedburner.com/jcfausto
+google-analytics-tracking-id: UA-40520478-1
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+paginate_path: 'blog/page:num'
+
+future:      true
+lsi:         false
+pygments:    false
+markdown:    maruku
+permalink:   /:year/:month/:title/
+paginate: 5
+
+maruku:
+  use_tex:    false
+  use_divs:   false
+  png_engine: blahtex
+  png_dir:    images/latex
+  png_url:    /images/latex
+
+rdiscount:
+  extensions: []
+
+kramdown:
+  auto_ids: true,
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers: inline
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: style
+
+excerpt_separator: "<!-- more -->"
