@@ -8,7 +8,7 @@ language: 'pt'
 
 É impressionante como eu gosto de mudar a cara do meu blog. Mas isso tem uma explicação. Vou falar um pouco a respeito agora. 
 
-Pelo fato de eu ser meio inquieto com esta questão de tecnologia e estar sempre buscando e estudando as novidades (se bem que esta que estou usando nem é tão novidade assim), muitas vezes eu sinto a necessidade de fazer alguns experimentos, e geralmente sobre para o meu blog :)
+Pelo fato de eu ser meio inquieto com esta questão de tecnologia e estar sempre buscando e estudando as novidades (se bem que esta que estou usando nem é tão novidade assim), muitas vezes eu sinto a necessidade de fazer alguns experimentos, e geralmente sobra para o meu blog :)
 
 Acho que ja é a quarta vez que mudo ele de lugar ou de tecnologia. Desta vez, estou mudando para uma que eu estou achando bem legal. Explico. 
 
