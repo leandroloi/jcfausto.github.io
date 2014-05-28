@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <title>Rails &mdash; Julio Cesar Fausto</title>
+
+  <!-- Meta -->
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Some screencast tutorials about rails" />
+
+  <!-- Facebook -->
+  <meta property="og:title" content="Rails &mdash; Julio Cesar Fausto"/>
+  <meta property="og:site_name" content="Julio Cesar Fausto"/>
+  <meta property="og:url" content="http://jcfausto.com/rails/index.html"/>
+  <meta property="og:image" content="http://jcfausto.com/assets/img/fb-share.jpg"/>
+  <meta property="og:type" content="blog"/>
+  <meta property="og:description" content="Some screencast tutorials about rails"/>
+  <!-- <meta property="fb:admins" content="YOUR_FB_USER_ID" /> -->  
+  <meta property="fb:app_id" content="635773259848730"/>
+  
+
+  <!-- Twitter Analytics -->
+  <!-- <meta property="twitter:account_id" content="1510104138" /> -->
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+
+  <!-- Font -->
+  <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+
+  <!-- Feed -->
+  <link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/jcfausto">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/normalize.css" type="text/css" />
+  <link rel="stylesheet" href="/assets/css/main.css?v=2" type="text/css" />
+
+  <!-- jQuery -->
+  <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+
+  <!-- Syntax Highlight -->
+  <link rel="stylesheet" type="text/css" href="/assets/pretiffy.css" />
+  <script src="/assets/pretiffy.js"></script>
+  <script src="/assets/pretiffy-lang-css.js"></script>
+
+  <!-- Main -->
+  <script src='/assets/js/main.js'></script>
+
+  <!-- Modernizr adding css classes -->
+  <script src='/assets/js/modernizr_css_classes.js'></script>
+
+</head>
+<body class="talks" onload="prettyPrint()">
+<!--  <div id="fb-root"></div>
+  <script>
+   (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=635773259848730";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <script type="text/javascript">
+   $(function(){
+     var twitterWidgets = document.createElement('script');
+     twitterWidgets.type = 'text/javascript';
+     twitterWidgets.async = true;
+     twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+     document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+     })();
+  </script>
+
+  <script type="text/javascript">
+    $(function() {
+      var po = document.createElement('script');
+      po.type = 'text/javascript'; po.async = true;
+      po.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(po, s);
+    })();
+  </script> -->
+
+  <div id="masthead">
+
+  <a href="/">
+    <!-- <img id="zeno-illustration" src="/assets/img/zeno-wc.png" alt="Zeno Rocha's Illustration" /> -->
+  </a>
+
+  <h1 class="sitetitle">
+    <a href="/" class="sitetitle">Julio Cesar Fausto</a>
+  </h1>
+  <p class="description">Technology enthusiast</p>
+
+  <ul id="pagenav">
+    <li><a href="/blog">Blog</a></li>
+   <!--  <li><a href="/rails">Rails</a></li>   -->
+    <li><a href="/projects">Projects</a></li>
+  </ul>
+
+</div> <!--/masthead-->
+
+  <div class="container">
+
+    <div id="content">
+
+    
+    <h1 class="posttitle">Rails</h1>
+    
+
+    <p>Here you can find some screencast tutorials about rails</p>
+
+<h1 id="most_recent">Most recent</h1>
+<hr />
+<h1 id="comming_next">Comming next</h1>
+<hr />
+    </div>
+  </div>
+
+<ul class="social-links">
+  <li><a class="social-twitter" href="http://twitter.com/jcfausto">Twitter</a></li>
+  <li><a class="social-facebook" href="https://www.facebook.com/julio.c.fausto">Facebook</a></li>
+  <li><a class="social-github" href="https://github.com/jcfausto">Github</a></li>
+  <li><a class="social-email" href="mailto:jcfausto@gmail.com">Email</a></li>
+  <li><a class="social-rss" href="https://www.linkedin.com/pub/julio-cesar-fausto/32/135/b17">Linkedin</a></li>
+  <!-- <li><a class="social-rss" href="#">RSS Feed</a></li> -->
+</ul>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40520478-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<!-- jQuery Infinite Scrolling -->
+<script type='text/javascript' src='/assets/js/jquery.infinitescroll.min.js'></script>
+<script>
+// infinitescroll() is called on the element that surrounds
+// the items you will be loading more of
+$('ul#posts').infinitescroll({
+  navSelector   : "p.pagination",
+          // selector for the paged navigation (it will be hidden)
+  nextSelector  : "p.pagination a.older",
+          // selector for the NEXT link (to page 2)
+  itemSelector  : "#content ul#posts li.post"
+          // selector for all items you'll retrieve
+});
+</script>
+
+<script type='text/javascript' src='/assets/js/fokus.min.js'></script>
+
+</body>
+</html>
